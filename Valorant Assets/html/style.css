@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+    height: auto;
+}
+
+nav img {
+    margin: 0;
+    padding: 0;
+    display: block; 
+}
+
+body {
+    background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
+    background-size: cover; 
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
